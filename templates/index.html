@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact V12</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="{{ url_for('static',filename='images/icons/favicon.ico') }}"/>
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='vendor/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/bootstrap.min.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='vendor/animate/animate.css')}}">
+<!--===============================================================================================-->
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='vendor/css-hamburgers/hamburgers.min.css') }}">
+<!--===============================================================================================-->
+    
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='vendor/select2/select2.min.css') }}">
+<!--===============================================================================================-->
+    
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/util.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}">
+	
+<!--===============================================================================================-->
+</head>
+<body>
+	<form method="POST">
+	<div id="yourdivId" class="bg-contact100" style="background-image: url('https://store-images.s-microsoft.com/image/apps.25532.70222240565100850.b7bb7fed-111f-4c72-b8c3-85a647cdf303.3925a5a5-fd66-4d4d-b739-e68ff76ac9e1?mode=scale&q=90&h=1080&w=1920');">
+		<div class="container-contact100">
+			<div class="wrap-contact100">
+				
+				<h3 class="title">Edar's Mod Manager</h3>
+				
+					<div class="wrap-input100 validate-input" data-validate="Name is required">
+						<input class="input100" type="text" name="name" placeholder="Workshop ID or URL">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						<i class="fa fa-user" aria-hidden="true"></i>
+						</span>
+					</div>
+					<button type="submit" class="contact100-form-btn">
+						Search
+					</button>
+					<h5>{{ mods }}</h5>
+				
+
+    			
+
+				
+			</div>
+		</div>
+
+	</div>
+	</form>
+
+
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+
+</body>
+</html>
