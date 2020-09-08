@@ -19,7 +19,7 @@ def getWorkShopId(text):
         return text
 
     else:
-        print("Invalid URL or ID")
+        return 0
 
 # text = "https://steamcommunity.com/sharedfiles/filedetails/?id=1819268190&searchtext="
 
